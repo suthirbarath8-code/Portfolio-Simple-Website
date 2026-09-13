@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Young Serif", serif;
+}
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.section-one__contact{
+    background-color: orangered;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.section-one__name{
+    font-size:50px;
+}
+.section-one__role{
+     font-size: 30px;
+     margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+.section-two__title{
+    padding-bottom: 5px;
+}
+.section-three__desc{
+    padding-top: 10px;
+}
+.section-three{
+    background-color:#6562FD;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    height: 200px; 
+    border-radius: 10px; 
+    vertical-align: top;
+}
+
+.section-four{
+    background-color: #FE7517;
+    display: inline-block;
+    padding: 20px;
+    border-radius:10px;
+    height: 200px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.section-four__title{
+    padding-bottom: 10px;
+}
+.section-four__desc{
+    padding-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.section-five__title a{
+    color: skyblue;
+}
+
